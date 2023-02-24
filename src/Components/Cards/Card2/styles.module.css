@@ -1,0 +1,48 @@
+.card{    
+    width: 24.125rem;
+    height: 40.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+
+.card img{
+    width: 21.125rem;
+    height: 22.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.card h3{
+    font-size: 1.8666666667rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.card p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card button{
+    width: 14.125rem;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.card .like {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.card .avg svg{
+    color: #F3C117;
+    margin-bottom: 5px;
+}
+.card .avg span{
+    font-size: 1.25rem !important;
+    font-weight: 400;
+}

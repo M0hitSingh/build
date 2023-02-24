@@ -1,0 +1,20 @@
+.myOrders .cards{
+    padding-top: 3.5rem;
+    font-size: 1rem;
+}
+.empty{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+}
+
+.empty p{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.empty img{
+    margin-top: 3rem;
+    width: 18.03125rem;
+    height: 15.6875rem;
+}

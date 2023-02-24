@@ -1,0 +1,160 @@
+.orderView{
+    background: #ffffff;
+    padding: 1.5rem 1.5rem 1rem;
+    width: 60vw;
+    /* margin-left: 21.0625rem; */
+    position:relative;
+    right: 6.5rem;
+    margin-left:38% !important;
+    margin-top: 3.5rem;
+    top: 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.orderView h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.orderView h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.capsule{
+    background: rgba(233, 242, 241, 0.7);
+    border-radius: 1.875rem;
+    width: 6.375rem;
+    /* height: 2rem; */
+    padding: 0.25rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    color: var(--primary);
+    text-transform: capitalize !important;
+    /* text-transform: uppercase; */
+}
+
+.price{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.orderView .rating{
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--text);
+    margin-bottom: 2.09375rem;
+}
+
+.orderView .rating svg{
+    color: #F3C117;
+    cursor: pointer;
+}
+
+.orderView .bill{
+    margin-bottom: 1.5rem;
+}
+
+.orderView .bill h4{
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.orderView .bill span{
+    float: right;
+}
+
+.orderView .bill h3{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.orderView .buttonDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.orderView button{
+    /* width: 48%; */
+    width: 28rem;
+    font-weight: 600;
+
+}
+
+.list{
+    background: #ffffff;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    font-size: 0.5rem;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: row;
+    min-height: 5.5625rem;
+    padding: 1rem 0px;
+    margin-bottom: 1.5rem;
+    border-top: 1px solid rgba(233, 242, 241, 0.7);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.list .prodImg{
+    width: 5.125rem;
+    height: 5.5625rem;
+    border-radius: 0.5rem;
+}
+
+.list h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.list h2 span{
+    float: right;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.list p{
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.qr{
+    /* height: "auto";  */
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.qr svg{
+    max-width: 30rem;
+}
+@media only screen and (max-width:890px){
+    .orderView{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width:768px){
+    .orderView{
+        right: 1.67rem;
+        width: 70%;
+        margin-left: 31% !important;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .orderView{
+        width: 92.5%;
+        margin-left: 3.125rem !important;
+        /* margin-right: 1.67rem; */
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f3423b6d.css",
+    "main.js": "/static/js/main.6f0cc66a.js",
+    "static/media/spclogo.svg": "/static/media/spclogo.7293e196962f29f3a456477c71dc1112.svg",
+    "static/media/aim.svg": "/static/media/aim.a68d818251201896ef56321385b09c76.svg",
+    "static/media/topblock.svg": "/static/media/topblock.e043d90f594771bd37d363fb7738f35d.svg",
+    "static/media/soap.png": "/static/media/soap.1f37921ddb73efae60c8.png",
+    "static/media/payQR.jpeg": "/static/media/payQR.3eef4aa68258dcb0b8b4.jpeg",
+    "static/media/empty.svg": "/static/media/empty.f829bc8d10a1c7916feea41d8cd807dc.svg",
+    "static/media/ordersuccess.svg": "/static/media/ordersuccess.174b3ff87eac189ee1d2ac3f2fc4a860.svg",
+    "index.html": "/index.html",
+    "static/media/package.svg": "/static/media/package.f99f290d336aaf9e325094cdf5065fa9.svg",
+    "static/media/truck.svg": "/static/media/truck.ae62b827564701ba199ef2f74543007d.svg",
+    "static/media/dollar.svg": "/static/media/dollar.0d5f4154417e02d5ea55f168bb64c18e.svg",
+    "main.f3423b6d.css.map": "/static/css/main.f3423b6d.css.map",
+    "main.6f0cc66a.js.map": "/static/js/main.6f0cc66a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3423b6d.css",
+    "static/js/main.6f0cc66a.js"
+  ]
+}

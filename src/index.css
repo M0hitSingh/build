@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css');
+
+*{
+  --primary: #247F70;
+  --secondary: #F2F7F7;
+  --text:#040D0B;
+  --empText: #828685;
+  /* font-size: 62.5%; */
+}
+body {
+  margin: 0 6.5rem;
+  margin-top: 6rem;
+  padding: 0;
+  font-variant-numeric: lining-nums;
+  font-family:  'Raleway', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text);
+  background: var(--secondary);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.Home{
+  margin: 0 6.5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dropdown-toggle{
+  background-color: white;
+  border: 1px solid #E6E7E7;
+  border-radius: 0.5rem;
+  color: var(--text);
+  width: 9.8125rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.dropdown-toggle:active{
+  background-color: var(--secondary) !important;
+  border: 1px solid #E6E7E7 !important;
+  color: var(--text) !important;
+
+}
+
+.dropdown-toggle:hover{
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.dropdown-menu a{
+  font-weight: 600;
+}
+
+.navbar{
+  background-color: var(--secondary) !important;
+  padding: 1rem 0rem;
+}
+
+.empText{
+  color: var(--empText);
+  font-size: 1rem;
+}
+
+.fa-regular{
+  font-weight: 500;
+}
+
+.prim-btn{
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: var(--primary) 2px solid;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.prim-btn:disabled{
+  opacity: 0.5;
+}
+.sec-btn{
+  background-color: white;
+  color: var(--primary);
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid #E6E7E7;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.modalBtns{
+
+}
+
+.shimmer-button--lg{
+  width: 100% !important;
+  height: 3.5rem !important;
+  /* width:  !important; */
+}
+
+
+
+footer{
+  border-radius: 8px 8px 0px 0px;
+  background-color: var(--primary);
+  margin: 0;
+  padding: 48px 16px;
+  padding-right: 32px;
+  color: var(--secondary);
+  /* width: calc(100% - 13rem); */
+  margin-top: 100px;
+  bottom: 0;
+}
+
+footer *{
+  font-size: 1rem;
+}
+
+footer b{
+  font-size: 1.2rem;
+}
+footer h3 b{
+  font-size: 1.75rem;
+}
+
+
+footer ul {
+  list-style: none;
+  display: flex;
+  gap:32px;
+  justify-content: space-between;
+}
+
+footer a{
+  color: var(--secondary);
+}
+footer a:hover, footer a:visited{
+  color: var(--empText);
+}
+
+
+@media only screen and (max-width:2560px) {
+  *{
+    font-size: 165%;
+  }
+}
+@media only screen and (max-width:2180px) {
+  *{
+    font-size: 135%;
+  }
+}
+@media only screen and (max-width:1990px) {
+  *{
+    font-size: 125%;
+  }
+}
+@media only screen and (max-width:1840px) {
+  *{
+    font-size: 115%;
+  }
+}
+@media only screen and (max-width:1696px) {
+  *{
+    font-size: 105%;
+  }
+}
+@media only screen and (max-width:1548px) {
+  *{
+    font-size: 100%;
+  }
+}
+@media only screen and (max-width:1474px) {
+  *{
+    font-size: 95%;
+  }
+}
+@media only screen and (max-width:1245px) {
+  *{
+    font-size: 85%;
+  }
+  
+  .ant-message{
+    font-size: 32px !important;
+  }
+
+  .ant-message svg{
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width:1110px) {
+  *{
+    font-size: 70%;
+  }
+  
+  .ant-message{
+    font-size: 64px !important;
+  }
+
+  .ant-message svg{
+    font-size: 20px !important;
+  }
+  footer{
+    padding: 24px 12px;
+    padding-right: 32px;
+  }
+}
+@media only screen and (max-width:986px) {
+  *{
+    font-size: 60%;
+  }
+  
+  .ant-message{
+    font-size: 100px !important;
+  }
+
+  .ant-message svg{
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width:768px){
+  body{
+    margin: 0 1.67rem;
+    margin-top: 6rem;
+  }
+
+  footer ul {
+    gap: 16px;
+  }
+  footer h3 b {
+    font-size: 1.5rem;
+  }
+  
+  
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  body{
+    background: white !important;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+  #dont-print *{
+    visibility: hidden !important;
+  }
+  #section-to-print {
+    position: absolute !important;
+    margin: 0;
+    left: 0;
+    top: 0;
+    border: #040D0B 1px solid;
+    /* margin-left: 50%; */
+    transform: translate(-30%,0);
+  }
+}

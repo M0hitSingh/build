@@ -1,0 +1,18 @@
+.prosSec h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.prosSec span{
+    font-size: 2.5rem !important;
+}
+
+.prosSec .cardDiv{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 3.5rem;
+
+}
+
+.prosSec>div::-webkit-scrollbar {
+    height: 10px;
+}
